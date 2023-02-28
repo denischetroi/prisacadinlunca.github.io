@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse ︱ Prisaca din luncă</title>
+    <link rel="icon" href="../images/bee.webp">
+</head>
+
+
+<header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logoo.PNG" width="125px"></a>
+            </div>
+
+            <nav class="navig">
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Pagina principală</a></li>
+                    <li><a href="../pages/despre.html">Despre noi</a></li>
+                    <li><a href="../pages/contacte.html">Contacte</a></li>
+                    <li><a href="../pages/produse.html">Produse</a></li>
+                    <li><a href="../pages/cont.html">Contul tău</a></li>
+                </ul>
+            </nav>
+
+            <a href="../pages/cart.html"><img src="../images/cart.png" width="30" height="30px"></a>
+            <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </header>
+
+
+    <body>
+        <div class="snow">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="3%">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="3%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="3%">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+            <img src="../images/fulg.png" width="3%">
+            <img src="../images/fulg.png" width="2%">
+            <img src="../images/fulg.png" width="1%">
+        </div>
+
+
+        <main>
+
+            <div class="row">
+                <h2>Toate produsele</h2>
+                <div class="options">
+                    <select>
+                        <option>Inplicit</option>
+                        <option>Sorteaza după preț</option>
+                        <option>Sorteaza după vânzări</option>
+                        <option>Sorteaza după popularitate</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+        </main>
+
+
+        <footer class="footer">
+
+
+            <div class="footer__addr">
+                <h1 class="footer__logo">Îtâmpini o problema?</h1>
+                <address>
+                    Lasă-ne un mesaj pe mail:<br>
+                    <a class="footer__btn" href="mailto:mail.prisacadinlunca@gmail.com">Email Us</a>
+                </address>
+            </div>
+
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <h1 class="footer__logo">Date de contact :</h1>
+                    <ul class="nav__ul">
+                        <li> &#9742; +373 675 90 464</li>
+                        <li>&#9993 mail.prisacadinlunca@gmail.com</li>
+                        <li>&#128205 Moldova, Cahul, Brînza</li>
+                    </ul>
+                </li>
+
+                <div>
+                    <h1 class="footer__logo">Urmărește-ne:</h1>
+                    <div>
+                        <a target="_blank" href="https://www.instagram.com/prisacadinlunca.md/"><img
+                                src="../images/instagram.png" alt="" style="width:35px;height:25px;"></a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.youtube.com/@sergiuchetroi5956"><img
+                                src="../images/youtube.jpg" alt="" style="width:35px;height:25px;"></a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.facebook.com/sergiu.chetroi.90"><img
+                                src="../images/facebook.jpg" alt="" style="width:35px;height:25px;"></a>
+                    </div>
+                </div>
+            </ul>
+
+            <div>
+                <p class="copyright"> Copyright 2022 - The Black Code</p>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+        <script>
+            var MenuItems = document = document.getElementById("MenuItems")
+
+            MenuItems.style.maxHeight = "0px"
+
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px"
+                }
+            }
+        </script>
+
+
+    </body>
+
+</html>
